@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javascript Documentation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Visual Studio Code Documentation</h1>
+      <ul>
+        <a href="#Overview">
+          <li style="text-align: center;">Overview</li>
+        </a>
+        <a href="#Installation">
+          <li style="text-align: center;">Installation</li>
+        </a>
+        <a href="#Get Started">
+          <li style="text-align: center;">Get Started</li>
+        </a>
+        <a href="#User Guide">
+          <li style="text-align: center;">User Guide</li>
+        </a>
+        <a href="#PowerShell">
+          <li style="text-align: center;">PowerShell</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="Overview">
+      <h2>Overview</h2>
+      <article>
+        <p>
+          Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is
+          available for
+          Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich
+          ecosystem
+          of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET).
+        </p>
+
+        <p>
+          <b style="font-size: 20px;">First Steps</b><br><br>
+
+          To get the most out of Visual Studio Code, start by reviewing a few introductory topics:<br><br>
+          <b>Intro Videos</b> - Begin your journey with VS Code through these introductory videos.<br><br>
+
+          <b>Setup</b> - Install VS Code for your platform and configure the tool set for your development
+          needs.<br><br>
+
+          <b>User Interface</b> - Introduction to the basic UI, commands, and features of the VS Code editor.<br><br>
+
+          <b>Settings</b> - Customize VS Code for how you like to work.<br><br>
+
+          <b>Languages</b> - Learn about VS Code's support for your favorite programming languages.<br><br>
+
+          <b>Node.js</b> - This tutorial gets you quickly running and debugging a Node.js web app.<br><br>
+
+          <b>Tips and Tricks</b> - Jump right in with Tips and Tricks to become a VS Code power user.<br><br>
+
+          <b>Azure</b> - VS Code is great for deploying your web applications to the cloud.<br><br>
+
+          <b>Extension API</b> - Learn how to write a VS Code extension.<br><br>
+
+          <b>Why VS Code?</b> - Read about the design philosophy and architecture of VS Code.
+          <br><br>
+        </p>
+      </article>
+    </section>
+    <section id="Installation">
+      <h2>Installation</h2>
+      <article>
+        <ol>
+          <li>Download the Visual Studio Code installer for Windows.</li>
+          <li>Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
+          </li>
+          <li>By default, VS Code is installed under C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code.</li>
+        </ol>
+
+        <p><b>Tip:</b> Setup will add Visual Studio Code to your %PATH%, so from the console you can type 'code .' to
+          open VS Code on that
+          folder. You will need to restart your console after the installation for the change to the %PATH%
+          environmental variable
+          to take effect.</p>
+      </article>
+    </section>
+    <section id="Get Started">
+      <h2>Get Started</h2>
+      <article>
+        <p>
+          The best way of exploring VS Code hands-on is to open the Get Started page. You will get an overview of VS
+          Code's
+          customizations and features. <b>Help > Get Started.</b>
+          Pick a Walkthrough for a self-guided tour through the setup steps, features, and deeper customizations that VS
+          Code
+          offers. As you discover and learn, the walkthroughs track your progress.
+          If you are looking to improve your code editing skills open the <b>Interactive Editor Playground.</b> Try out
+          VS
+          Code's code
+          editing features, like multi-cursor editing, <b>IntelliSense</b>, Snippets, <b>Emmet</b>, and many more.
+          <b>Help >
+            Editor Playground.</b>
+        </p>
+        <p>
+          <b>"Tips and Tricks"</b> lets you jump right in and learn how to be productive with Visual Studio Code. You'll
+          become familiar
+          with its powerful editing, code intelligence, and source code control features and learn useful keyboard
+          shortcuts. This
+          topic goes pretty fast and provides a broad overview, so be sure to look at the other in-depth topics in
+          <b>Getting Started</b>
+          and the <b>User Guide</b> to learn more.
+        </p>
+        <p>At its heart, Visual Studio Code is a code editor. Like many other code editors, VS Code adopts a common user
+          interface
+          and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor
+          on the
+          right, showing the content of the files you have opened.<br>
+          VS Code comes with a simple and intuitive layout that maximizes the space provided for the editor while
+          leaving ample
+          room to browse and access the full context of your folder or project. The UI is divided into five areas:<br>
+        <ul>
+          <li><b>Editor -</b> The main area to edit your files. You can open as many editors as you like side by side
+            vertically and
+            horizontally.</li>
+          <li><b>Side Bar -</b> Contains different views like the Explorer to assist you while working on your project.
+          </li>
+          <li><b>Status Bar -</b> Information about the opened project and the files you edit.</li>
+          <li><b>Activity Bar -</b> Located on the far left-hand side, this lets you switch between views and gives you
+            additional
+            context-specific indicators, like the number of outgoing changes when Git is enabled.</li>
+          <li><b>Panels -</b> You can display different panels below the editor region for output or debug information,
+            errors and warnings,
+            or an integrated terminal. Panel can also be moved to the right for more vertical space.</li>
+        </ul>
+        </p>
+      </article>
+    </section>
+    <section id="User Guide">
+      <h2>User Guide</h2>
+      <article>
+        <p>Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running
+          entirely in your browser, allowing you to quickly and safely browse source code repositories and make
+          lightweight code
+          changes. Toget started, go to <b>vscode.dev</b> in your browser.<br><br>
+          VS Code for the Web has many of the features of VS Code desktop that you love, including search and syntax
+          highlighting
+          while browsing and editing, along with extension support to work on your codebase and make simpler edits. In
+          addition to
+          opening repositories, forks, and pull requests from source control providers like GitHub and Azure Repos (in
+          preview),
+          you can also work with code that is stored on your local machine.<br><br>
+
+          VS Code for the Web runs entirely in your web browser, so there are certain limitations compared to the
+          desktop
+          experience, which you can read more about below.
+
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your
+          browser!</p>
+        <p>
+          By navigating to <b>https://vscode.dev</b>, you can create a new local file or project, work on an existing
+          local project, or
+          access source code repositories hosted elsewhere, such as on GitHub and Azure Repos (part of Azure DevOps).
+
+          You can navigate to a project repository directly from a URL, following the
+          scheme: <b>https://vscode.dev/SOURCE/ORG/REPO.</b>
+          Using the VS Code repo as an example, this would look like: <b>https://vscode.dev/github/microsoft/vscode.</b>
+
+          To work with both GitHub and Azure Repos, VS Code for the Web supports two routes, vscode.dev/github and
+          vscode.dev/azurerepos:
+
+          GitHub: <b>https://vscode.dev/github/organization/repo</b>
+
+          Azure Repos: <b>https://vscode.dev/azurerepos/organization/project/repo</b>
+
+          If you're already in VS Code for the Web at <b>https://vscode.dev</b>, you can alternatively navigate to
+          different
+          repos via
+          the GitHub Repositories extension commands. Select the remote indicator in the lower left of the Status bar,
+          and you'll
+          be presented with the Open Remote Repository... command.
+        </p>
+
+      </article>
+    </section>
+    <section id="PowerShell">
+      <h2>PowerShell</h2>
+      <article>
+        <p>
+          <b>PowerShell</b> is a task-based command-line shell and scripting language built on <b>.NET</b>, which
+          provides a powerful
+          toolset
+          for administrators on any platform.
+
+          The Microsoft <b>PowerShell</b> extension for Visual Studio Code provides rich language support and
+          capabilities such
+          as
+          completions, definition tracking, and linting analysis for PowerShell versions 3, 4, 5, and 5.1 as well as all
+          versions
+          of <b>PowerShell Core.</b>
+        </p>
+        <p>
+          <b>Install the PowerShell extension#</b><br>
+          The official PowerShell extension can be installed by following the steps described in the Visual Studio Code
+          User Guide
+          or by going directly to the Visual Studio Code Marketplace and clicking the Install Button.
+
+          You can also install the PowerShell extension from within Visual Studio Code by opening the Extensions view
+          with
+          keyboard shortcut Ctrl+Shift+X and typing "PowerShell" and select the PowerShell extension:
+        </p>
+        <p>
+          <b>Major features#</b>
+        <ul>
+          <li>Syntax highlighting</li>
+          <li>Code snippets</li>
+          <li>IntelliSense for cmdlets and more</li>
+          <li>Rule-Based analysis provided by PowerShell Script Analyzer</li>
+          <li>"Go to definition" of cmdlets and variables</li>
+          <li>Find references of cmdlets and variables</li>
+          <li>Document and Workspace symbol discovery</li>
+          <li>Run selected section of PowerShell code using <b>F8</b></li>
+          <li>Launch online help for the symbol under the cursor using <b>Ctrl + F1</b></li>
+          <li>Local script debugging and basic interactive console support</li>
+          <li>Enable ISE mode using <b>Ctrl + Shift + P</b> then search for "Enable ISE Mode"</li>
+        </ul>
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>
