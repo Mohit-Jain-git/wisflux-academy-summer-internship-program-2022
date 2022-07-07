@@ -1,0 +1,10 @@
+function difference(n)
+{
+    if (n <= 13)
+        return 13 - n;
+    else
+        return (n - 13) * 2;
+}
+
+console.log(difference(65))  // Return double of absolute difference.
+console.log(difference(11))  // Return the difference only.
